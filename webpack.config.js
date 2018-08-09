@@ -9,9 +9,9 @@ module.exports = {
   output: {
     path: __dirname + '/dist',
     filename: '[name].js',
-    libraryTarget: 'umd',
-    library: 'angularUiDate',
-    publicPath: 'assets',
+    // libraryTarget: 'umd',
+    // library: 'angularUiDate',
+    // publicPath: 'assets',
   },
 
   module: {

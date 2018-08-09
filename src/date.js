@@ -116,7 +116,7 @@ angular.module('ui.date', [])
             var newViewValue = $element.datepicker('getDate');
 
             if (isDate) {
-              angular.forEach(keys, (key) => {
+              angular.forEach(keys, function(key) {
                 newViewValue['set' + key](preserve[key]);
               });
             }
